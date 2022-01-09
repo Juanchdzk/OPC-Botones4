@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Glowing Gradient Icon Hover Effects</title>
+  <link rel="shortcut icon" href="no-image-icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+  <script scr="http://code.jquery.com/jquery-latest.js"></script>
+  <script scr="top.js"></script>
+
+  <script>
+    
+    function opcion1(){
+      document.getElementById('opcion1').style.display = 'block'; 
+      document.getElementById('opcion2').style.display = 'none';
+      document.getElementById('opcion3').style.display = 'none';
+      document.getElementById('opcion4').style.display = 'none';
+    }
+
+    function opcion2(){
+      document.getElementById('opcion2').style.display = 'block'; 
+      document.getElementById('opcion1').style.display = 'none';
+      document.getElementById('opcion3').style.display = 'none';
+      document.getElementById('opcion4').style.display = 'none';  
+    }
+
+    function opcion3(){
+      document.getElementById('opcion3').style.display = 'block'; 
+      document.getElementById('opcion1').style.display = 'none';
+      document.getElementById('opcion2').style.display = 'none';
+      document.getElementById('opcion4').style.display = 'none';
+    }
+
+    function opcion4(){
+      document.getElementById('opcion4').style.display = 'block'; 
+      document.getElementById('opcion1').style.display = 'none';
+      document.getElementById('opcion2').style.display = 'none';
+      document.getElementById('opcion3').style.display = 'none';
+    }
+
+  </script>
+</head>
+
+<body class="red">
+
+  <span class="icon-airplane"></span>
+
+  <div>
+      <div class="banner">
+          <div>
+            <div class="parche">
+              <button type="button" class="btn btn--1" onclick="opcion1()">
+                BOTON 1
+              </button>
+            </div>
+            <div class="parche">
+              <button type="button" class="btn btn--2" onclick="opcion2()">
+                BOTON 2
+              </button>
+            </div>  
+            <div class="parche">
+              <button type="button" class="btn btn--3" onclick="opcion3()">
+                BOTON 3
+              </button>
+            </div>
+            <div class="parche">
+              <button type="button" class="btn btn--4" onclick="opcion4()">
+                BOTON 4
+              </button>
+            </div>
+          </div>
+      </div>      
+    </div>
+      <div id="btn btn--1">
+        <div class="screen">
+          <div id="opcion1" style="display: none;">
+            <h2> Primera página </h2>              
+            <img src="6f52d692b3c8e1f0ebbf6cdaca8fe7eb.jpg">
+            <p class="lorem"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          </div>          
+        </div>
+      </div>
+      <div id="btn btn--2">
+        <div class="screen">
+          <div id="opcion2" style="display: none;">
+            <h2> Segunda página </h2>            
+            <img src="5-1536834334.jpg">
+            <p class="lorem"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          </div>          
+        </div>
+      </div>
+      <div id="btn btn--3">
+        <div class="screen">
+          <div id="opcion3" style="display: none;">
+            <h2> Tercera página </h2>           
+            <img src="57bed8dcf45fd665d818878407d2c114.jpg">
+            <p class="lorem"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          </div>          
+        </div>
+      </div>
+      <div id="btn btn--4">
+        <div class="screen">
+          <div id="opcion4" style="display: none;"> 
+            <h2> Cuarta página </h2> 
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/nULs4JW3tPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
